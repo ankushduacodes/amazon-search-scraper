@@ -1,6 +1,10 @@
 attrs==20.1.0
 Automat==20.2.0
+beautifulsoup4==4.9.1
+bs4==0.0.1
+certifi==2020.6.20
 cffi==1.14.2
+chardet==3.0.4
 constantly==15.1.0
 cryptography==3.1
 cssselect==1.1.0
@@ -13,6 +17,7 @@ jmespath==0.10.0
 lxml==4.5.2
 parsel==1.6.0
 Protego==0.1.16
+proxyscrape==0.3.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycparser==2.20
@@ -20,9 +25,13 @@ PyDispatcher==2.0.5
 PyHamcrest==2.0.2
 pyOpenSSL==19.1.0
 queuelib==1.5.0
+requests==2.24.0
 Scrapy==2.3.0
+scrapy-proxy-pool==0.1.9
 service-identity==18.1.0
 six==1.15.0
+soupsieve==2.0.1
 Twisted==20.3.0
+urllib3==1.25.10
 w3lib==1.22.0
 zope.interface==5.1.0
