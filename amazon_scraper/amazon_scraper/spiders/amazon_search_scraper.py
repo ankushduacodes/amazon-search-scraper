@@ -11,5 +11,8 @@ class Scraper(scrapy.Spider):
         self.keyword = keyword.replace(' ', '+')
 
         start_urls = [
-
+            base_url + "/s?k=" + keyword
         ]
+
+    def parse(self, response):
+        pass
